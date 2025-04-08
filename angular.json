@@ -20,6 +20,8 @@
             "outputPath": "dist/change-detector-analyze",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "https://polygonov.github.io/change-detector-analyze/",
+            "deployUrl": "/change-detector-analyze/",
             "polyfills": [
               "zone.js"
             ],
