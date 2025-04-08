@@ -1,0 +1,46 @@
+<div class="container">
+
+  <div class="base">
+    <h3>БЛОК 1</h3>
+    <p>[Обновление input компонента для переменной простого и ссылочного типов]</p>
+    
+    <div class="list">
+  
+      <p-button (onClick)="incrementNumeric()">
+        Обновить примитив
+      </p-button>
+  
+      <p-button (onClick)="incrementReference()">
+        Обновить ссылочный
+      </p-button>
+      
+    </div>
+    
+    <app-detector-analyzer-1 
+      [numeric]="numeric"
+      [reference]="reference"
+    />
+  </div>
+
+  
+  
+  
+  
+  
+  <div class="base">
+    <h3>БЛОК 2</h3>
+    <p>[Обновление переменной простого типа в обработчике событий, коде компонента и через setTimeout]</p>
+    <app-detector-analyzer-2/>
+  </div>
+
+
+
+
+
+
+  <div class="base">
+    <h3>БЛОК 3</h3>
+    <p>[Обновление переменной простого типа через async pipe и через сигналы]</p>
+    <app-detector-analyzer-3/>
+  </div>
+</div>

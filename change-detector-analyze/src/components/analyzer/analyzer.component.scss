@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between
+}
+
+.base {
+  margin: 20px;
+  background-color: lavender;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .base {
+    width: 100%;
+    margin: 10px 0; /* вместо всех сторон — только вертикальные отступы */
+  }
+}
